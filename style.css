@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .expense-item {
+    margin-bottom: 10px;
+  }
+  
+  .remove-expense-btn {
+    margin-top: 5px;
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .remove-expense-btn:hover {
+    background-color: #eaeaea;
+  }
+  
+  #result {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaeaea;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #result p {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  #result {
+    display: none;
+  }
+  

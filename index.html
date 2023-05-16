@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Budgeting Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Budgeting Tool</h1>
+    <form id="budgetForm">
+      <label for="income">Income:</label>
+      <input type="number" id="income" required>
+      
+      <div id="expensesContainer">
+        <div class="expense-item">
+          <label for="expenseLabel0">Expense 1:</label>
+          <input type="text" id="expenseLabel0" class="expense-label" required>
+          <input type="number" id="amount0" class="expense-amount" required>
+        </div>
+      </div>
+      
+      <button type="button" id="addExpenseBtn">Add Expense</button>
+      <button type="button" id="calculateBtn">Calculate</button>
+    </form>
+    
+    <div id="result" class="hide">
+      <p id="savings"></p>
+      <p id="remaining"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
